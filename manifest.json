@@ -1,6 +1,7 @@
 {
     "manifest_version": 2,
     "name": "y",
+    "description": "Ты супер!",
     "version": "0.0.0",
     "content_scripts": [
         {
@@ -12,5 +13,8 @@
         "16": "icons/16.png",
         "48": "icons/48.png",
         "128": "icons/128.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
     }
 }
